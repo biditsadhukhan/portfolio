@@ -366,6 +366,20 @@ params:
           - "ML"
           - "Statistics"
           
+      - title: Applications of Principal Component Analysis
+        content: "Object tracking using OpenCV involves detecting and following a specific object or region of interest in a video or sequence of images. It includes object detection, initialization, and tracking using different algorithms."
+        image: /images/projects/PrincipalComponents.png
+        featured:
+          name: Demo
+          link: https://www.youtube.com/watch?v=f6smReHJP4Q
+        badges:
+          - "Open-CV"
+          - "ML"
+          - "Python"
+        links: 
+          - icon: fab fa-github
+            url: https://github.com/biditsadhukhan/object-tracking
+          
       
         
 
