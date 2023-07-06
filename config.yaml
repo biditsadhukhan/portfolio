@@ -254,23 +254,28 @@ params:
         date: "2022 - 2024"
         Pursuing: "Currently in 3rd Sem"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Achievements and Learnings
+            -  I am currently the Treasurer of the annual fest of Computer Science Department (Perceptron).
+            - Active Member of the planning committee of Perceptron.
+      
       - title: "Bachelor of Science in Statistics"
         school:
           name: "St.Xaviers College Kolkata"
           url: "https://www.sxccal.edu/"
         date: "2018 - 2021"
-        Percentage: "3.9 out of 5.0"
+        #Percentage: "3.9 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Achievements and Learnings:
+          - Best Content writer in English Literary Society-2019.
+              - I learned how to write clear, concise, and engaging content that is accessible to a wide audience.
+          - Served as an active member of Science Association.
+              - I learned more about science and how to share my knowledge with others. I also developed my communication skills and my ability to work effectively with people from different backgrounds and disciplines.
+          - Organising Committee member of the Epsilon Delta 2019 (Annual fest of the Statistics Department).
+            - I learned how to organize and manage a large event. I also learned how to work with a team to achieve a common goal.
+          - I have been a part of the National Service Scheme India since 2018.
+            - During my time in the program, I wrote a documented project on the effect of online learning on youths. This project gave me the opportunity to gain valuable experience in the field of online learning, and it also helped me to develop my research skills and my understanding of the needs of young people.
+            - I had the opportunity to work with people from all walks of life, and I learned how to help them in their time of need. I also learned about the challenges that people face, and I gained a deeper understanding of the importance of social work.
+          
         featuredLink:
           enable: false
           name: "My college Website"
@@ -281,7 +286,14 @@ params:
           url: "https://example.org"
         date: "2016-2018"
         Percentage: "92%"
-        content: t
+        content: |-
+          Achievments and Works
+          - INSPIRE(SHE) scholarship holder of 2018.
+          - Best student enthusiast award in Inspire internship program. -2016
+          - Best researching mind award(jointly) in Inspire Internship Program-2016
+          - Winner of group quiz award in Inspire Internship program-2016.
+          - An Intern in Inspire-2016
+
         
         featuredLink:
           enable: false
@@ -292,8 +304,15 @@ params:
           name: "Chandannagar Sri Aurobindo Vidya Mandir, Hathkhola,Chandannagar"
           url: "https://example.org"
         date: "2006-2016"
-        Percentage: "95.6%"
-        content: t
+        Percentage: "95%"
+        content: |-
+          Achievements and Works
+          - One-time awardee of the Sudeshna Pal Memorial Award of SAVM.(2015)
+          - Best presenter award in science exhibition in 2015.
+          - Best project work in science exhibition in 2014 and 2016.
+          - Awarded the second prize in NABARD, Quiz competition.
+          - Runner up in senior college quiz competition held in CHANDANNAGAR GOVT COLLEGE, 2015.
+          - Honors’ from PNTSE, ANTHE, FIITJEE, SRI CHAITANYA ACADEMY.
         
         featuredLink:
           enable: false
