@@ -44,7 +44,7 @@ Menus:
     - identifier: ME
       title: Blog posts
       name: My Story
-      url: /i'm-about
+      url: /my story
       weight: 2
     # - identifier: dropdown1
     #   title: example dropdown 1
