@@ -1,0 +1,421 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Bidit Sadhukhan"
+theme: "hugo-profile"
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 3
+    #Dropdown menu
+    - identifier: ME
+      title: Blog posts
+      name: My Space
+      url: /i'm-about
+      weight: 2
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "The Art of Being Classy"
+  description: Welcome to my personal website! As a passionate data scientist and relentless learner, I showcase my projects, achievements, and insightful blogs here. Explore the world of data science with me!
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/favicon.ico"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: true
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+     disableThemeToggle: false
+     defaultTheme: "dark" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Bidit Sadhukhan" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Bidit Sadhukhan"
+    subtitle: "I am a Data Scientist and an Ultra-learner"
+    content: "Curious problem solver who thrives on complex challenges. Fearless innovator with a passion for making a positive impact on the world."
+    image: /images/bidit.jpg
+    bottomImage:
+      enable: true
+    roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/biditsadhukhan/
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/biditsadhukhan/
+      customIcons:
+        - icon: /brand-icon.png
+          url: "https://biditsadhukhan.hashnode.dev/"
+        - icon: /link.png
+          url: https://www.kaggle.com/biditsadhukhan
+        - icon: /gitlab.png
+          url: "https://gitlab.com/biditsadhukhan"
+          
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am an insatiably curious problem solver, always seeking complex challenges that push my intellect. Fearless in the face of adversity, I embrace each obstacle as an opportunity to innovate. Guided by the power of data, I make informed decisions, leveraging insights to chart a course to success. My true passion lies in making a positive impact on the world, utilizing my skills and knowledge to effect change. With an unwavering commitment to excellence, I eagerly seek new opportunities to apply my expertise. Let's embark on a transformative journey, shaping a brighter future through innovation and unwavering dedication. 
+
+      I am currently learning about streaming data and graph databases.
+    skills:
+      enable: true
+      title: "Here are a few key highlights about my expertise and skills:"
+      items:
+        - "R"
+        - "Python"
+        - "Hadoop"
+        - "Pyspark"
+        - "SQL"
+        - "Orientdb"
+        - "Gremlin"
+        - "Statistics"
+        - "Machine Learning"
+        - "ML-Computer Vision"
+
+  # Experience
+  experience:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - job: "Senior Software Developer"
+        company: "Facebook"
+        companyUrl: "https://example.com"
+        date: "Jan 2022 - present"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://example.com"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+      - job: "Software Developer"
+        company: "Amazon"
+        companyUrl: "https://example.com"
+        date: "Sep 2020 - Dec 2021"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        info:
+          enable: true
+          content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "Junior Software Developer"
+        company: "Apple"
+        companyUrl: "https://example.com"
+        date: "Jan 2020 - Aug 2020"
+        info:
+          enable: false
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "UI/UX Designer"
+        company: "Netflix"
+        companyUrl: "https://example.com"
+        date: "June 2017 - Nov 2019"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "Product Designer"
+        company: "Google"
+        companyUrl: "https://example.com"
+        date: "Feb 2016 - Mar 2017"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Big Data Analytics(Data Science)"
+        school:
+          name: "Ramkrishna Mission Vivekananda Educational Research Institute,Belur Math, Howrah"
+          url: "https://rkmvu.ac.in/"
+        date: "2022 - 2024"
+        Pursuing: "Currently in 3rd Sem"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Statistics"
+        school:
+          name: "St.Xaviers College Kolkata"
+          url: "https://www.sxccal.edu/"
+        date: "2018 - 2021"
+        Percentage: "3.9 out of 5.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: false
+          name: "My college Website"
+          url: "#"
+      - title: "Higher Secondary School"
+        school:
+          name: "Chandannagar Sri Aurobindo Vidya Mandir, Hathkhola,Chandannagar"
+          url: "https://example.org"
+        date: "2016-2018"
+        Percentage: "92%"
+        content: t
+        
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+          
+      - title: "Secondary School"
+        school:
+          name: "Chandannagar Sri Aurobindo Vidya Mandir, Hathkhola,Chandannagar"
+          url: "https://example.org"
+        date: "2006-2016"
+        Percentage: "95.6%"
+        content: t
+        
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Quantifying Myself
+        content: In this personal data analysis project, I embarked on a journey of self-discovery by quantifying various aspects of my life. By collecting and analyzing data related to my habits, routines, emotions, and achievements, I gained valuable insights into my patterns and behaviors. Join me on this insightful exploration as I delve into the numbers that tell the story of my life and uncover meaningful trends and correlations.
+        image: /images/blogs-images/Data.jpg
+        featured:
+          name: Read my Paper
+          link: "https://github.com/biditsadhukhan/Quantifying-myself/blob/main/Bidit_Sadhukhan_B2230022_Quantifying_myself.pdf" 
+        badges:
+          - "Data Analysis"
+          - "EDA"
+          - "R"
+          - "Statistics"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:rkmveribidit@gmail.com?subject=I%20want%20to%20know%20more%20about%20quantifying%20myself&body=Hi%2C%20I%20am%20
+          - icon: fab fa-github
+            url: https://github.com/biditsadhukhan/Quantifying-myself
+          
+
+      - title: Churn Data EDA using R
+        content: The churn data EDA (Exploratory Data Analysis) provides insights into customer churn patterns and behavior. Through data visualization and statistical analysis, it uncovers trends, factors, and correlations related to customer attrition. The EDA helps businesses understand why customers churn and identify strategies to mitigate churn rate and improve customer retention.
+        image: "/images/projects/Rplot07.png"
+        featured:
+          name: View Codes
+          link: https://gitlab.com/biditsadhukhan//-/blob/master/Assignment-1%2C-Churnds-selection.Rmd
+        badges:
+          - "EDA"
+          - "R"
+          - "Churn Data"
+        links:
+          - icon: fab fa-github
+            url: https://gitlab.com/biditsadhukhan/pds-assignment_folder
+
+      - title: Applications of Principal Component Analysis
+        content: "PCA: Dimensionality reduction technique for data visualization, feature selection, noise reduction, compression, outlier detection, and data preprocessing."
+        image: /images/projects/PrincipalComponents.png
+        featured:
+          name: Read Here
+          link: https://drive.google.com/file/d/1RXzxbj05-fQEaQq508SIyBKAGHvMz0Ob/view?usp=sharing
+        badges:
+          - "PCA"
+          - "ML"
+          - "Statistics"
+          
+      
+        
+
+  #Contact
+  contact:
+    enable: true
+    title: "Get in Touch"
+    content: "I believe in the power of meaningful connections. Whether you have an opportunity to discuss, a thought to share, or a collaboration in mind, I would love to hear from you. Drop me a message, and I'll make sure to get back to you as soon as possible. Your input and ideas are valuable to me, and I'm excited to embark on new ventures together.Let's start a conversation!"
+    email: rkmveribidit@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/biditsadhukhan/
+      linkedin: https://www.linkedin.com/in/biditsadhukhan/
+      instagram: https://www.instagram.com/bidit21/
+      facebook: https://www.facebook.com/mac.deep.18/
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: true
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "Bidit Sadhukhan"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
