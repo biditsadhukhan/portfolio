@@ -1,7 +1,7 @@
 ---
 author: Bidit Sadhukhan
 date: "2023-07-06T22:41:10+05:30"
-description: "Discover the power of Gremlin in OrientDB. Learn the basics, explore advanced queries, and unlock valuable insights from your graph data."
+description: ""
 draft: false
 github_link: "https://www.scotthyoung.com/blog/ultralearning/"
 image: /images/blogs-images/ultralearning.jpg
