@@ -43,7 +43,7 @@ Embracing your true self is a journey, not a destination. It's something that yo
 Remember, you are unique and special. There is no one else in the world like you. Embrace your originality and let your true self shine through.
 
 
-# How I Started Embracing Myself
+## How I Started Embracing Myself
 
 I've always been a bit hesitant to share my true self with others. I was afraid that if I did, they wouldn't like me. So, I would often try to be someone I wasn't. I would suppress my true feelings and pretend to be someone I wasn't. This led to a lot of stress and anxiety. I was always worried about what other people thought of me, and I never felt truly comfortable in my own skin.
 
