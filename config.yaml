@@ -390,7 +390,7 @@ params:
         image: /images/projects/opencv.png
         featured:
           name: Demo
-          link: https://www.youtube.com/watch?v=f6smReHJP4Q
+          link: https://youtu.be/w0UX1N8XTJs
         badges:
           - "Open-CV"
           - "ML"
