@@ -1,16 +1,16 @@
 ---
 author: Bidit Sadhukhan
-date: "2023-04-03T22:41:10+05:30"
-description: "Discover the power of Gremlin in OrientDB. Learn the basics, explore advanced queries, and unlock valuable insights from your graph data."
+date: "2023-07-07T22:41:10+05:30"
+description: "Embracing Uniqueness"
 draft: false
 github_link: "https://biditsadhukhan.hashnode.dev/getting-started-with-gremlin-in-orientdb-unleash-the-power-of-graph-databases"
 image: /images/i-1.jpg
 tags:
-- Gremlin
-- Orientdb
-- demodb
-- NoSql
-- Graph-traversal
+- life
+- uniqueness
+- Growth
+- personality
+- learning
 title: "Embrace Your True Self: Stop Trying to Be Someone You're Not"
 toc: true
 ---
