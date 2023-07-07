@@ -1,6 +1,6 @@
 ---
 author: Bidit Sadhukhan
-date: "2023-04-03T22:41:10+05:30"
+date: "2023-07-07T22:41:10+05:30"
 description: "Discover the power of Gremlin in OrientDB. Learn the basics, explore advanced queries, and unlock valuable insights from your graph data."
 draft: false
 github_link: "https://biditsadhukhan.hashnode.dev/getting-started-with-gremlin-in-orientdb-unleash-the-power-of-graph-databases"
@@ -15,7 +15,7 @@ title: "Embrace Your True Self: Stop Trying to Be Someone You're Not"
 toc: true
 ---
 
-
+# Embracing Uniqueness
 
 We all have a unique set of talents, interests, and experiences that make us who we are. But sometimes, we can get caught up in trying to be someone we're not. We might compare ourselves to others and feel like we're not good enough. Or we might try to conform to what we think other people want us to be.
 
