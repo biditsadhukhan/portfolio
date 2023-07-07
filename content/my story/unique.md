@@ -1,7 +1,7 @@
 ---
 author: Bidit Sadhukhan
 date: "2023-07-06T22:41:10+05:30"
-description: " Embracing originality and uniqueness"
+description: " Embracing originality and uniqueness of yours"
 draft: false
 github_link: "https://biditsadhukhan.hashnode.dev/getting-started-with-gremlin-in-orientdb-unleash-the-power-of-graph-databases"
 image: /images/i-1.jpg
