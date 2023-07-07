@@ -1,6 +1,6 @@
 ---
 author: Bidit Sadhukhan
-date: "2021-04-03T22:41:10+05:30"
+date: "2023-04-03T22:41:10+05:30"
 description: "Discover the power of Gremlin in OrientDB. Learn the basics, explore advanced queries, and unlock valuable insights from your graph data."
 draft: false
 github_link: "https://biditsadhukhan.hashnode.dev/getting-started-with-gremlin-in-orientdb-unleash-the-power-of-graph-databases"
