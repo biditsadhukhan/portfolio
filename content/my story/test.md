@@ -6,11 +6,11 @@ draft: false
 github_link: "https://biditsadhukhan.hashnode.dev/getting-started-with-gremlin-in-orientdb-unleash-the-power-of-graph-databases"
 image: /images/i-1.jpg
 tags:
-- Gremlin
-- Orientdb
-- demodb
-- NoSql
-- Graph-traversal
+- Growth
+- life
+- personality
+- learning
+- true-self
 title: "Embrace Your True Self: Stop Trying to Be Someone You're Not"
 toc: true
 ---
