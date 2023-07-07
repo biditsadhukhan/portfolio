@@ -16,8 +16,6 @@ toc: true
 ---
 
 
-# Embrace Your True Self: Stop Trying to Be Someone You're Not
-
 We all have a unique set of talents, interests, and experiences that make us who we are. But sometimes, we can get caught up in trying to be someone we're not. We might compare ourselves to others and feel like we're not good enough. Or we might try to conform to what we think other people want us to be.
 
 The truth is, we can never be truly happy if we're not being our true selves. When we try to be someone we're not, we're constantly putting on a front and pretending to be someone we're not. This can be exhausting and it can lead to feelings of anxiety, depression, and low self-esteem.
