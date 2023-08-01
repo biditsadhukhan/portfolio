@@ -135,7 +135,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: cv.pdf
+      url: Bidit Sadhukhan CV.pdf
       download: true
       newPage: false
     socialLinks:
