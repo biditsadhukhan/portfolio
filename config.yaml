@@ -323,8 +323,8 @@ params:
     enable: true
     title: "Current Goals"
     items:
-      - title: Graph Based Machine Learning
-        content: I am trying to explore different Graph Based Machine Learning Algorithms.
+      - title: Handling and Analysing GIS or Spatial Data
+        content: I am trying to explore different algorithms for Spatial Data.
         #url: https://example.com
       - title: Automating the process of Data collection
         content: Trying to build an app which would help me track my data easily for Quantifying Myself.
@@ -335,7 +335,7 @@ params:
         content: To connect with others, share my ideas clearly, achieve my goals, and build confidence.
       - title: Participating in a Case Study Competitions
         content: Case study competitions often feature judges who are experts in the field. This can be a great opportunity to learn from their experience and get feedback on my work.
-        #url: https://example.com
+        url: https://github.com/SrijanWMXJ/Trilytic
 
   # projects
   projects:
