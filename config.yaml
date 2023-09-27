@@ -88,22 +88,22 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  color preference:
-   color:
-     textColor: red
-     secondaryTextColor: blue
-     backgroundColor: yellow
-     secondaryBackgroundColor: grey
-     primaryColor: blue
-     secondaryColor: white
+  #color preference:
+   #color:
+    # textColor: red
+     #secondaryTextColor: blue
+     #backgroundColor: yellow
+     #secondaryBackgroundColor: grey
+     #primaryColor: blue
+     #secondaryColor: white
 
-     darkmode:
-      textColor: green
-       secondaryTextColor: white
-       backgroundColor: yellow
-       secondaryBackgroundColor: black
-       primaryColor: black
-       secondaryColor: grey
+     #darkmode:
+      #textColor: green
+       #secondaryTextColor: white
+       #backgroundColor: yellow
+       #secondaryBackgroundColor: black
+       #primaryColor: black
+       #secondaryColor: grey
 
   # If you want to customize the menu, you can change it here
   navbar:
