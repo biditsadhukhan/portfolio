@@ -88,22 +88,22 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  # color preference
-   #color:
-  #   textColor: red
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+   color preference
+   color:
+     textColor: red
+     secondaryTextColor:
+     backgroundColor:
+     secondaryBackgroundColor:
+     primaryColor:
+     secondaryColor:
 
-     #darkmode:
-      #textColor: green
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+     darkmode:
+      textColor: green
+       secondaryTextColor:
+       backgroundColor:
+       secondaryBackgroundColor:
+       primaryColor:
+       secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -166,21 +166,23 @@ params:
       
       I encourage you to join me as I continue to explore and discover new things in the world of data science and beyond.
 
-      I am currently learning about streaming data and graph databases.
+      I am currently learning about Automatics Speech Recognition and Reinforcement Learning.
     skills:
       enable: true
-      title: "Here are a few key highlights about my expertise and skills:"
+      title: "Here are a few key highlights about my interests and skills:"
       items:
         - "R"
         - "Python"
         - "Hadoop"
         - "Pyspark"
         - "SQL"
+        - "Huggingface"
         - "Orientdb"
         - "Gremlin"
         - "Statistics"
         - "Machine Learning"
-        - "ML-Computer Vision"
+        - "Deep Learning"
+        - "Reinforcement Learning"
 
   # Experience
   experience:
@@ -329,8 +331,8 @@ params:
     enable: true
     title: "Current Goals"
     items:
-      - title: Handling and Analysing GIS or Spatial Data
-        content: I am trying to explore different algorithms for Spatial Data.
+      - title: Automatic Speech Recognition 
+        content: I am trying to learn the basics of automatic speech recognition.
         #url: https://example.com
       - title: Automating the process of Data collection
         content: Trying to build an app which would help me track my data easily for Quantifying Myself.
